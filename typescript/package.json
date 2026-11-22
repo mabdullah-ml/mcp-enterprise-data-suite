@@ -1,0 +1,15 @@
+{
+  "name": "mcp-ops-bridge-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/api_bridge_server.test.ts",
+    "start": "node --experimental-strip-types src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
